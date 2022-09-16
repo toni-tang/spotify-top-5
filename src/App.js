@@ -1,12 +1,18 @@
-//Main Page
+import React, { useEffect } from 'react';
 import './App.css';
+import SpotifyWebApi from 'spotify-web-api-js';
+import axios from 'axios';
+
+const spotifyAPI = new SpotifyWebApi();
 
 function App() {
-	return (
-		<div>
-			<h1>lawl smelly</h1>
-		</div>
-	);
+
+
+
+
+
+
+	return <div></div>;
 }
 
 export default App;
